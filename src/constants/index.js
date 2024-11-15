@@ -24,7 +24,7 @@ export const PROJECTS = [
     description:
       "A complete e-commerce platform featuring product listings, shopping cart functionality, and user authentication.",
     technologies: ["React", "Node.js", "MongoDB" , "Express.js", "HTML", "CSS"],
-    githubLink: "https://github.com/PedroMJK/Vuex_Gerenciamento_de_estado",
+    githubLink: "https://github.com/PedroMJK/Full_Stack_Ecommerce-react-nodejs",
     websiteLink: "https://task-management-app.com", 
   },
 
@@ -34,6 +34,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio site displaying projects, expertise, and contact details.",
     technologies: ["React", "Nodejs", "Tailwind"],
+    githubLink: "https://github.com/PedroMJK/my-portfolio-web",
+    websiteLink: "https://task-management-app.com",
   },
   {
     title: "Threads App",
