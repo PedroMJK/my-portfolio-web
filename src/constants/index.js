@@ -1,4 +1,5 @@
 import project1 from "../assets/projects/project-1.webp";
+import project3 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
@@ -44,6 +45,8 @@ export const PROJECTS = [
     description:
       "A responsive web app for user login and registration, built with JavaScript, HTML, and CSS, featuring client-side validation.",
     technologies: ["JavaScript", "HTML", "CSS"],
+    githubLink: "https://github.com/PedroMJK/Login_and_Register",
+    websiteLink: "https://login-and-register-wine.vercel.app/",
   },
   {
     title: "Threads App",
