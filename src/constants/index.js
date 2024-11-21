@@ -37,6 +37,14 @@ export const PROJECTS = [
     githubLink: "https://github.com/PedroMJK/my-portfolio-web",
     websiteLink: "https://pedro-monteiro.vercel.app/#",
   },
+  
+  {
+    title: "Login & Registration System",
+    image: project2,
+    description:
+      "A responsive web app for user login and registration, built with JavaScript, HTML, and CSS, featuring client-side validation.",
+    technologies: ["JavaScript", "HTML", "CSS"],
+  },
   {
     title: "Threads App",
     image: project4,
