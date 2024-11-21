@@ -35,7 +35,7 @@ export const PROJECTS = [
       "A personal portfolio site displaying projects, expertise, and contact details.",
     technologies: ["React", "Nodejs", "Tailwind"],
     githubLink: "https://github.com/PedroMJK/my-portfolio-web",
-    websiteLink: "https://task-management-app.com",
+    websiteLink: "https://pedro-monteiro.vercel.app/#",
   },
   {
     title: "Threads App",
