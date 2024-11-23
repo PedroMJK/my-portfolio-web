@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
+import project5 from "../assets/projects/project-5.webp";
 
 export const HERO_CONTENT = `I am a motivated Full Stack Developer with a strong foundation in creating dynamic, responsive, and efficient web applications. Skilled in technologies such as TypeScript, React, Vue.js, Next.js, Angular, Node.js, SQL and MongoDB, I thrive on building seamless user interfaces and robust back-end systems. With experience in API integration, software testing, and agile methodologies, I aim to deliver high-quality solutions tailored to user needs. Passionate about continuous learning, I am always exploring new technologies to stay at the forefront of innovation and enhance my skills`;
 
@@ -49,8 +50,17 @@ export const PROJECTS = [
     websiteLink: "https://login-and-register-wine.vercel.app/",
   },
   {
-    title: "Threads App",
+    title: "Anime Search Platform",
     image: project4,
+    description:
+      "An interactive anime search platform, enabling users to explore and discover anime titles effortlessly. Built with Vue.js, it features responsive design and dynamic functionality for an engaging user experience.",
+    technologies: ["Vuejs", "HTML", "CSS"],
+    githubLink: "https://github.com/PedroMJK/anime-search-vuejs",
+    websiteLink: "https://anime-search-roan.vercel.app/",
+  },
+  {
+    title: "Threads App",
+    image: project5,
     description:
       "Project in Progress.",
     technologies: ["Nextjs", "React", "TypeScript", "MongoDB"],
