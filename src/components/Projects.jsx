@@ -26,7 +26,7 @@ const Projects = () => {
                 width={250}
                 height={250}
                 alt={project.title}
-                className="m-6 rounded"
+                className="md:pr-6 lg:py-4 py-6 rounded"
               />
             </motion.div>
             <motion.div 
@@ -36,7 +36,7 @@ const Projects = () => {
                 className="w-full max-w-xl lg:w-3/4"
             >
               <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
-              <p className="mb-4 text-stone-400">{project.description}</p>
+              <p className="mb-4 text-stone-200">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
                   className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
@@ -51,7 +51,7 @@ const Projects = () => {
                   href={project.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-2 border border-transparent text-sm font-medium rounded-full text-gray-800 bg-gray-200 hover:bg-gray-300 transition duration-300 transform hover:scale-105"
+                  className="inline-flex items-center px-6 py-2 mt-2 border border-transparent text-sm font-medium rounded-full text-gray-800 bg-gray-200 hover:bg-gray-300 transition duration-300 transform hover:scale-105"
                 >
                   View Code
                 </a>
@@ -60,7 +60,7 @@ const Projects = () => {
                   href={project.websiteLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-2 border border-transparent text-sm font-medium rounded-full text-gray-800 bg-gray-300 hover:bg-gray-400 transition duration-300 transform hover:scale-105">
+                  className="inline-flex items-center px-6 py-2  mt-2 border border-transparent text-sm font-medium rounded-full text-gray-800 bg-gray-300 hover:bg-gray-400 transition duration-300 transform hover:scale-105">
                   Visit Site
                 </a>
               </div>
