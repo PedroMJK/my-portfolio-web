@@ -32,7 +32,7 @@ export const PROJECTS = [
 
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project2,
     description:
       "A personal portfolio site displaying projects, expertise, and contact details.",
     technologies: ["React", "Nodejs", "Tailwind"],
@@ -42,7 +42,7 @@ export const PROJECTS = [
   
   {
     title: "Login & Registration System",
-    image: project2,
+    image: project3,
     description:
       "A responsive web app for user login and registration, built with JavaScript, HTML, and CSS, featuring client-side validation.",
     technologies: ["JavaScript", "HTML", "CSS"],
