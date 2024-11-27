@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/ecommerce_image.png";
+// import project1 from "../assets/projects/ecommerce_image.png";
 import project2 from "../assets/projects/portfolio_image.png";
 import project3 from "../assets/projects/login_image.png";
 import project4 from "../assets/projects/anime_image.ico";
@@ -20,16 +20,6 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A complete e-commerce platform featuring product listings, shopping cart functionality, and user authentication.",
-    technologies: ["React", "Node.js", "MongoDB" , "Express.js", "HTML", "CSS"],
-    githubLink: "https://github.com/PedroMJK/Full_Stack_Ecommerce-react-nodejs",
-    websiteLink: "https://task-management-app.com", 
-  },
-
   {
     title: "Portfolio Website",
     image: project2,
