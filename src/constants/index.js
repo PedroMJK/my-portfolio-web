@@ -54,7 +54,7 @@ export const PROJECTS = [
     image: project5,
     description:
       "A task management web application that allows users to add, toggle, and delete tasks. Built with React, TypeScript, and Node.js, the app interacts with a backend API to manage task data and supports user-friendly features like task completion status and real-time updates.",
-    technologies: ["React.js", "Node.js", "Typescript", "Javascrpt", "MongoDB", "HTML", "CSS"],
+    technologies: ["React.js", "Node.js", "Typescript", "Javascript", "MongoDB", "HTML", "CSS"],
     githubLink: "https://github.com/PedroMJK/task-manager",
     websiteLink: "https://task-manager-o95jzvaxs-pedromjks-projects.vercel.app/",
   },
