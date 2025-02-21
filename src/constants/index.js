@@ -2,7 +2,8 @@
 import project2 from "../assets/projects/portfolio_image.png";
 import project3 from "../assets/projects/login_image.png";
 import project4 from "../assets/projects/anime_image.ico";
-import project5 from "../assets/projects/in_process_image.png";
+import project5 from "../assets/projects/todolist.png";
+import project6 from "../assets/projects/in_process_image.png";
 
 export const HERO_CONTENT = `I am a motivated Full Stack Developer with a strong foundation in creating dynamic, responsive, and efficient web applications. Skilled in technologies such as TypeScript, React, Vue.js, Next.js, Angular, Node.js, SQL and MongoDB, I thrive on building seamless user interfaces and robust back-end systems. With experience in API integration, software testing, and agile methodologies, I aim to deliver high-quality solutions tailored to user needs. Passionate about continuous learning, I am always exploring new technologies to stay at the forefront of innovation and enhance my skills`;
 
@@ -49,8 +50,19 @@ export const PROJECTS = [
     websiteLink: "https://anime-search-roan.vercel.app/",
   },
   {
-    title: "Threads App",
+    title: "Task Management Web",
     image: project5,
+    description:
+      "A task management web application that allows users to add, toggle, and delete tasks. Built with React, TypeScript, and Node.js, the app interacts with a backend API to manage task data and supports user-friendly features like task completion status and real-time updates.",
+    technologies: ["React.js", "Node.js", "Typescript", "Javascrpt", "HTML", "CSS"],
+    githubLink: "https://github.com/PedroMJK/task-manager",
+    websiteLink: "https://task-manager-o95jzvaxs-pedromjks-projects.vercel.app/",
+  },
+
+  
+  {
+    title: "Threads App",
+    image: project6,
     description:
       "Project in Progress.",
     technologies: ["Nextjs", "React", "TypeScript", "MongoDB"],
