@@ -1,9 +1,8 @@
-// import project1 from "../assets/projects/ecommerce_image.png";
-import project2 from "../assets/projects/portfolio_image.png";
+import project1 from "../assets/projects/portfolio_image.png";
+import project2 from "../assets/projects/inventory_sales.png";
 import project3 from "../assets/projects/login_image.png";
 import project4 from "../assets/projects/anime_image.ico";
 import project5 from "../assets/projects/todolist.png";
-import project6 from "../assets/projects/in_process_image.png";
 
 export const HERO_CONTENT = `I am a motivated Full Stack Developer with a strong foundation in creating dynamic, responsive, and efficient web applications. Skilled in technologies such as TypeScript, React, Vue.js, Next.js, Angular, Node.js, SQL and MongoDB, I thrive on building seamless user interfaces and robust back-end systems. With experience in API integration, software testing, and agile methodologies, I aim to deliver high-quality solutions tailored to user needs. Passionate about continuous learning, I am always exploring new technologies to stay at the forefront of innovation and enhance my skills`;
 
@@ -23,14 +22,32 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Portfolio Website",
-    image: project2,
+    image: project1,
     description:
       "A personal portfolio site displaying projects, expertise, and contact details.",
     technologies: ["React", "Nodejs", "Tailwind"],
     githubLink: "https://github.com/PedroMJK/my-portfolio-web",
     websiteLink: "https://pedro-monteiro.vercel.app/#",
   },
-  
+ {
+  title: "Inventory & Sales Management System",
+  image: project2,
+  description:
+    "A full-stack inventory and sales management system with authentication, product control, customer management, and sales tracking. Built to simulate real-world business operations with a clean dashboard and secure API.",
+  technologies: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+    "Tailwind CSS"
+  ],
+  githubLink: "https://github.com/PedroMJK/Inventory-sales-system",
+  websiteLink: "https://inventory-sales-system-five.vercel.app/",
+},
+
   {
     title: "Login & Registration System",
     image: project3,
@@ -59,18 +76,11 @@ export const PROJECTS = [
     websiteLink: "https://task-manager-o95jzvaxs-pedromjks-projects.vercel.app/",
   },
 
-  
-  {
-    title: "Threads App",
-    image: project6,
-    description:
-      "Project in Progress.",
-    technologies: ["Nextjs", "React", "TypeScript", "MongoDB"],
-  },
+
 ];
 
 export const CONTACT = {
-  address: "Downtown, Catende, PE ",
+  address: "Catende, PE ",
   phoneNo: "+55 11 9 5962-9362",
   email: "pedromonteiro.jk@gmail.com",
 };
