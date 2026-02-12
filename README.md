@@ -15,8 +15,7 @@ I thrive in **full-stack development**, API integration, and building intuitive 
 ## Technologies & Tools
 - **Frontend:** React, Next.js, Vue.js, Angular, Tailwind CSS, HTML, CSS, TypeScript, JavaScript  
 - **Backend:** Node.js, Express, JWT  
-- **Databases:** MySQL, PostgreSQL (MongoDB used in some projects)  
-- **Testing & CI/CD:** Jest, Cypress  
+- **Databases:** MongoDB
 - **Version Control:** Git & GitHub  
 
 ---
